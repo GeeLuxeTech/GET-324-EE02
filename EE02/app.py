@@ -8,9 +8,10 @@ classnames = ["Healthy", "Tomato Mosaic Virus"]
 
 st.set_page_config(page_title="Tomato Leaf Disease Detection")
 
-
+root = os.path.dirname(os.path.abspath(__file__))
 @st.cache_resource
 def loadmodels():
+    model_path = os.path.join(root, "tomato_model.keras")
     diseasemodel = tf.keras.models.load_model("tomato_model.keras")
     anomalymodel = tf.keras.models.load_model("tomatoAnomalyDetector.keras")
     with open("tomatoAnomalyThreshold.txt", "r") as f:
