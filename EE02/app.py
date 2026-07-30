@@ -15,7 +15,7 @@ def loadmodels():
     model_path = os.path.join(root, "tomato_model.keras")
     anomaly_path = os.path.join(root, "tomatoAnomalyDetector.keras")
     threshold_path = os.path.join(root, "tomatoAnomalyThreshold.txt")
-    diseasemodel = tf.keras.models.load_model(modal_path)
+    diseasemodel = tf.keras.models.load_model(model_path)
     anomalymodel = tf.keras.models.load_model(anomaly_path)
     with open(threshold_path, "r") as f:
         threshold = float(f.read())
