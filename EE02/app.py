@@ -13,9 +13,11 @@ root = os.path.dirname(os.path.abspath(__file__))
 @st.cache_resource
 def loadmodels():
     model_path = os.path.join(root, "tomato_model.keras")
-    diseasemodel = tf.keras.models.load_model("tomato_model.keras")
-    anomalymodel = tf.keras.models.load_model("tomatoAnomalyDetector.keras")
-    with open("tomatoAnomalyThreshold.txt", "r") as f:
+    anomaly_path = os.path.join(root, "tomatoAnomalyDetector.keras")
+    threshold_path = os.path.join(root, "tomatoAnomalyThreshold.txt")
+    diseasemodel = tf.keras.models.load_model(modal_path)
+    anomalymodel = tf.keras.models.load_model(anomaly_path)
+    with open(threshold_path, "r") as f:
         threshold = float(f.read())
     return diseasemodel, anomalymodel, threshold
 
