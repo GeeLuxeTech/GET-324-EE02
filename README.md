@@ -14,3 +14,7 @@ Next, we built a Convolutional Neural Network using TensorFlow and Keras for the
 After training, we evaluated the model using unseen test images to measure its accuracy and overall performance. We carefully analyzed the results, identified areas where the model made incorrect predictions, and refined the training process to improve its ability to correctly classify healthy and infected tomato leaves. This iterative process allowed us to produce a more accurate and dependable model.
 
 Finally, we integrated the trained model into a Streamlit web application that allows users to upload a tomato leaf image and instantly receive a prediction. We tested the application extensively, fixed deployment issues, and successfully hosted it on a cloud platform. Through teamwork, continuous testing, and effective collaboration, we successfully developed a practical AI solution that demonstrates how deep learning and cloud computing can be applied to real world agricultural disease detection.
+
+23/EG/EE/040
+23/EG/EE/080
+23/EG/EE/090
