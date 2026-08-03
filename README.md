@@ -17,6 +17,15 @@ Finally, we integrated the trained model into a Streamlit web application that a
 
 23/EG/EE/040
 23/EG/EE/080
+The GET 324 Laboratory Exercise 10 is a group-based mini-project worth 15 marks that focuses on the application of cloud computing and artificial intelligence in engineering. The objective of the project is to develop an AI-powered software application capable of performing binary image classification using a Convolutional Neural Network (CNN) or a pre-trained transfer learning model. Each group is assigned a specific classification task based on its department and group number. These tasks include distinguishing between healthy and diseased plants, identifying different animal species, detecting skin diseases, recognizing fresh and rotten fruits, and detecting cracks in concrete structures.
+
+The project is designed to help students achieve important course learning outcomes by giving them practical experience in designing, training, testing, evaluating, and deploying deep learning models. Students are expected to prepare and preprocess image datasets, build and train an accurate classification model using TensorFlow/Keras, evaluate the model's performance, and integrate it into a user-friendly web application using Streamlit or a similar framework. The completed application must then be deployed to a cloud platform so that users can access and test it online.
+
+This mini-project is strictly a teamwork activity, and every member of the group is expected to contribute throughout the entire development process. Responsibilities include dataset collection and preprocessing, model development and training, performance evaluation, application development, cloud deployment, documentation, and report writing. The project encourages collaboration, communication, and shared responsibility among team members while developing practical engineering and software development skills.
+
+Each group is required to submit several deliverables. These include the complete app.py source code, a GitHub repository containing the full project and a README file, the URL of the deployed Streamlit application, and a brief report of about 100–150 words describing the dataset source, how to use the application, the challenges encountered during development and deployment, and possible solutions or future improvements. The submission must also include the names, registration numbers, and GitHub usernames of all group members who contributed to the project.
+
+Students are advised to refer to previous laboratory exercises for guidance on saving and loading trained models and developing Streamlit applications. They are also encouraged to consult the Streamlit documentation for additional interface components and to thoroughly test the application before deployment. The assessment will focus mainly on the correctness, functionality, accuracy, and successful cloud deployment of the AI application rather than the visual appearance of the user interface. A simple but fully functional application that performs the assigned image classification task accurately will receive higher consideration.
 23/EG/EE/090
 23/EG/EE/050
 Model Evaluation
