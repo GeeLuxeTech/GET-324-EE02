@@ -18,3 +18,7 @@ Finally, we integrated the trained model into a Streamlit web application that a
 23/EG/EE/040
 23/EG/EE/080
 23/EG/EE/090
+23/EG/EE/050
+Model Evaluation
+
+The trained Convolutional Neural Network (CNN) model was evaluated using a separate test dataset to assess its performance on unseen images. Several evaluation metrics, including accuracy, precision, recall, and F1-score, were used to measure the model's effectiveness in classifying the two image categories. In addition, a confusion matrix was generated to provide a detailed analysis of the model's predictions by showing the numbers of true positives, true negatives, false positives, and false negatives. The evaluation results indicated that the model achieved high classification performance and demonstrated good generalization on unseen data. The low number of misclassified images showed that the model learned meaningful features from the training dataset. Overall, the evaluation confirmed that the model is reliable, accurate, and suitable for deployment as a cloud-based binary image classification application.
