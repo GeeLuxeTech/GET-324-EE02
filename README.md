@@ -2,6 +2,7 @@
 EE02 project for GET 324: AI &amp; Machine learning 
 23/EG/EE/010
 23/EG/EE/060
+The dataset for our assigned binary image classification task was collected from open-source repositories like Kaggle and PlantVillage to evaluate our Convolutional Neural Network (CNN) model. The model was deployed as a cloud-based Streamlit application, enabling users to upload test images for real-time inference. My primary contribution focused on documentation and report writing. I drafted the formal project report detailing our dataset sources, system workflow, experimental evaluation, and cloud deployment procedures. Furthermore, I authored a comprehensive README file for our GitHub repository to explain project installation, repository structure, and application usage for seamless evaluation. To overcome the challenge of synthesizing technical hyperparameters into concise prose, I collaborated closely with the team to accurately document every phase of development
 23/EG/EE/120
 My team and I have been given a real-world problem to solve using artificial intelligence (AI). Our specific task is to build a "smart eye" that can look at a photo of a tomato leaf and tell us whether the plant is healthy or infected with a common virus called Tomato Mosaic Virus. This kind of tool could really help farmers catch diseases early and save their crops.
 
